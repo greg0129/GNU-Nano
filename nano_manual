@@ -244,6 +244,7 @@ the buffer, all its anchors simply disappear; they are not saved.
 
 Anchors are visualized in the margin when line numbers are activated.
 
+
 3.9 Limitations
 
 The recording and playback of keyboard macros works correctly only on a
@@ -1245,8 +1246,9 @@ extendsyntax name command argument ...
 
 
 8.3 Rebinding Keys
-	Key bindings can be changed via the following three commands in a nanorc
-	file:
+
+Key bindings can be changed via the following three commands in a nanorc
+file:
 
 bind key function menu
 	Rebinds key to function in the context of menu (or in all menus
@@ -1302,7 +1304,6 @@ ble. On some terminals it’s not possible to rebind ^H (unless --raw is used)
 because its keycode is identical to that of the Backspace key.
 
 Valid names for the function to be bound are:
-
 
 help
 	Invokes the help viewer.
@@ -1380,7 +1381,9 @@ location
 wordcount
 	Counts and reports on the status bar the number of lines, words,
 	and characters in the current buffer (or in the marked region).
-	executePrompts for a program to execute. The program’s output will
+
+execute
+	Prompts for a program to execute. The program’s output will
 	be inserted into the current buffer (or into a new buffer when
 	M-F is toggled).
 
@@ -1684,7 +1687,6 @@ tabstospaces
 
 mouse
 	Toggles mouse support.
-
 
 Valid names for menu are:
 
